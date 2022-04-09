@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int x;
+	int y;
+	printf("请输入您的时薪"); 
+	scanf("%d",&y);
+	printf("请输入你的工作小时");
+	scanf("%d",&x); 
+	if(x<=48){
+
+      printf("您的工资是%d",x*y);
+      }else{
+
+      printf("您的工资是%f",48*y+(x-48)*(y*1.5));
+}
+	
+	return 0;
+}
